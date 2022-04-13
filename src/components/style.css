@@ -1,0 +1,43 @@
+body
+{
+    background-image: linear-gradient(180deg, rgb(153, 208, 253), rgb(255, 154, 154), rgb(243, 233, 233));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.btn-wrap {
+    width: 50%;
+    margin-inline: auto; 
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn {
+    background-color: hsl(180, 76%, 48%);
+    padding: 1rem;
+    border: 0.15rem solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: hsl(180, 100%, 51%);
+}
+
+
+.box-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1, .box2 {
+    padding: 2rem;
+    border: 0.15rem solid black;
+    border-radius: 30px;
+}
+.box1 {
+    background-color: hsl(180, 100%, 51%);
+}
+.box2 {
+    background-color: rgb(211, 98, 204);
+}
